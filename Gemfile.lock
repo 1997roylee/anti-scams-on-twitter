@@ -112,6 +112,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
     minitest (5.16.3)
     multipart-post (2.2.3)
     naught (1.1.0)
@@ -124,6 +125,11 @@ GEM
     net-smtp (0.3.2)
       net-protocol
     nio4r (2.5.8)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    nokogiri (1.13.9-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.13.9-x86_64-darwin)
       racc (~> 1.4)
     pg (1.4.4)
@@ -173,6 +179,12 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    tailwindcss-rails (2.0.16)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.16-arm64-darwin)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.16-x86_64-darwin)
+      railties (>= 6.0.0)
     thor (1.2.1)
     thread_safe (0.3.6)
     timeout (0.3.0)
@@ -205,6 +217,8 @@ GEM
     zeitwerk (2.6.1)
 
 PLATFORMS
+  arm64-darwin
+  ruby
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -213,6 +227,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4)
   sprockets-rails
+  tailwindcss-rails (~> 2.0)
   twitter
   tzinfo-data
   vite_rails
@@ -222,4 +237,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.7
+   2.3.24

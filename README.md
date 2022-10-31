@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Issues
+
+### Cannot install pg gem
+
+```bash
+gem install pg -v '1.4.4' --source 'https://rubygems.org/'
+```

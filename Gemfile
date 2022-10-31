@@ -34,3 +34,4 @@ gem 'vite_rails'
 gem 'vite_ruby'
 gem 'twitter'
 # gem "figaro"
+gem "tailwindcss-rails", "~> 2.0"

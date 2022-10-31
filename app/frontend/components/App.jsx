@@ -1,4 +1,10 @@
+import { Header } from "./Header";
 
 export const App = () => {
-    return <div>1234</div>
-}
+  return (
+    <>
+      <Header />
+      <div>1234</div>
+    </>
+  );
+};
