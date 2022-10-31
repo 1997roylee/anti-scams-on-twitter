@@ -1,0 +1,8 @@
+defaults: &defaults
+  CONSUMER_KEY: '' # API KEY
+  CONSUMER_SECRET: '' # API KEY SECRET
+  ACCESS_TOKEN: ''
+  ACCESS_TOKEN_SECRET: ''
+
+production:
+  <<: *defaults
