@@ -8,9 +8,9 @@ module Api
     def create
       @twitter_account = TwitterAccount.new(create_twitter_accounts_params)
       if @twitter_account.save
-        render json: @twitter_account, status: :created
+        render(json: @twitter_account, status: :created)
       else
-        render json: @twitter_account.errors, status: :unprocessable_entity
+        render(json: @twitter_account.errors, status: :unprocessable_entity)
       end
     end
 
@@ -19,7 +19,7 @@ module Api
     def create_twitter_accounts_params
       params.permit(
         :username,
-        :name
+        :name,
       )
     end
   end
